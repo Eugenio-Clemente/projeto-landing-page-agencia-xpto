@@ -1,0 +1,61 @@
+@media (max-width: 624px) {
+  .cabecalho {
+    justify-content: center;
+  }
+
+  .cabecalho .logo {
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+
+  .cabecalho .navegacao {
+    width: 100%;
+  }
+
+  .cabecalho .navegacao .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cabecalho .menu .item a {
+    font-size: calc(0.6em + 1vw);
+  }
+
+  .quem-somos .conteudo .imagem {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .conteudo-principal .paineis {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quem-somos .conteudo {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+ 
+  img{
+    margin: 10px;
+  }
+}
+
+@media (max-width: 940px) {
+  .rodape .navegacao {
+    justify-content: center;
+  }
+
+  .rodape .navegacao .logo {
+    margin-bottom: 30px;
+  }
+
+  .rodape .navegacao .logo,
+  .rodape .navegacao .redes-sociais {
+    width: 100%;
+    justify-content: center;
+  }
+}
